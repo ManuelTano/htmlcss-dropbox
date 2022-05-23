@@ -1,0 +1,52 @@
+/* GENERICS */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* INTESTAZIONE */
+
+header {
+    max-height: 100px;
+    margin: 0 auto;
+    position: flex;
+}
+
+.row{
+    display: flex;
+    padding: 25px;
+}
+
+.column-left {
+    width: 50%;
+    display: flex;
+}
+
+.column-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+#inizia{
+    background-color: #0061FF;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-left: 25px;
+}
+
+#logo {
+    height: 25px;
+}
