@@ -62,7 +62,7 @@ a{
     background-color: #B4D0E7;
 }
 
-.small-container{
+.big-container{
     margin: 0 auto;
     width: 1200px;
 }
@@ -107,7 +107,7 @@ h1{
     top: 70px;
 }
 
-span{
+.block{
     display: block;
     padding-top: 25px;
 }
@@ -116,4 +116,79 @@ span{
     padding-top: 20px;
     font-size: 50px;
     padding-bottom: 25px;
+}
+
+/* TABLE */
+
+.small-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.row-title {
+    margin-top: 200px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#mensile {
+    margin-right: 40px;
+}
+
+.row-table{
+    display: flex;
+    margin-top: 50px;
+}
+.col{
+    width: calc(100% / 3);
+    border: 1px solid lightgray;
+}
+
+.title {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+strong {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.description{
+    margin-top: 25px;
+}
+
+.prezzo, .mensile{
+    margin-top: 15px;
+}
+
+.prezzo {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.mensile {
+    font-size: 13px;
+    color: grey;
+}
+
+.utente, .archiviazione, .funzioni{
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.button{
+    text-align: center;
+    margin-top: 50px;
 }
