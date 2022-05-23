@@ -13,12 +13,6 @@ body {
 
 /* INTESTAZIONE */
 
-header {
-    max-height: 100px;
-    margin: 0 auto;
-    position: flex;
-}
-
 .row{
     display: flex;
     padding: 25px;
@@ -49,4 +43,50 @@ a{
 
 #logo {
     height: 25px;
+}
+
+/* MAIN */
+
+#jumbotron {
+    width: 100%;
+    background-color: #B4D0E7;
+}
+
+.small-container{
+    margin: 0 auto;
+    width: 1200px;
+    max-height: 500px;
+}
+
+h1{
+    font-size: 80px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.col-box-30{
+    width: 30%;
+    margin-top: 50px;
+}
+
+.col-box-70{
+    width: 70%;
+    display: flex;
+
+}
+
+#prova {
+    background-color: #0061FF;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+
+}
+
+.nopadding {
+    padding-left: 0;
+}
+
+#jumbo {
+    height: 450px;
 }
