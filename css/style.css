@@ -13,6 +13,15 @@ body {
 
 /* INTESTAZIONE */
 
+header {
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: white;
+
+}
 .row{
     display: flex;
     padding: 25px;
@@ -48,6 +57,7 @@ a{
 /* MAIN */
 
 #jumbotron {
+    margin-top: 80px;
     width: 100%;
     background-color: #B4D0E7;
 }
@@ -55,14 +65,18 @@ a{
 .small-container{
     margin: 0 auto;
     width: 1200px;
-    max-height: 500px;
 }
 
 h1{
     font-size: 80px;
     margin: auto;
-    padding-top: 30px;
+    padding-top: 80px;
 }
+.riga {
+    display: flex;
+    position: relative;
+}
+
 
 .col-box-30{
     width: 30%;
@@ -71,15 +85,14 @@ h1{
 
 .col-box-70{
     width: 70%;
-    display: flex;
 
 }
 
 #prova {
     background-color: #0061FF;
     color: white;
-    padding: 5px 10px 5px 10px;
-    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+    margin-top: 25px;
 
 }
 
@@ -88,5 +101,19 @@ h1{
 }
 
 #jumbo {
-    height: 450px;
+    max-width: 70%;
+    height: auto;
+    position: absolute;
+    top: 70px;
+}
+
+span{
+    display: block;
+    padding-top: 25px;
+}
+
+#freccia{
+    padding-top: 20px;
+    font-size: 50px;
+    padding-bottom: 25px;
 }
