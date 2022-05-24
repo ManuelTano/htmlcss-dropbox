@@ -325,3 +325,94 @@ h4 {
     font-size: 25px;
     
 }
+
+.col-60{
+    width: 60%;
+    margin-top: 150px;
+}
+
+/* SEZIONE CLIENTELA */
+
+#clienti{
+    margin-top: 150px;
+}
+
+.row-clients {
+    display: flex;
+}
+
+.col-clients{
+    width: (100% / 3);
+    height: 800px;
+    background-color: red;
+}
+
+.grey {
+    background-color: grey;
+}
+
+/* SEZIONE TRIAL */
+
+#trial {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #B4D0E7;
+}
+
+.trial-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#violet {
+    color: #61082B;
+}
+
+.colonna {
+    width: 50%;
+}
+
+#gratuita {
+    background-color: white;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    margin-top: 25px;
+
+}
+
+/* SEZIONE FAQ */
+
+#faq {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+}
+
+.big {
+    width: 100%;
+}
+
+.ultimate-row {
+    display: flex;
+}
+.col-20{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 20%;
+}
+
+#white {
+    color: white;
+    padding-left: 0px;
+}
