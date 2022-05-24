@@ -387,8 +387,8 @@ h4 {
 #faq {
     max-width: 1000px;
     margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 
@@ -397,6 +397,7 @@ h4 {
 
 footer {
     background-color: black;
+    padding-bottom: 100px;
 }
 
 .big {
@@ -405,6 +406,9 @@ footer {
 
 .ultimate-row {
     display: flex;
+    padding-top: 25px;
+    justify-content: space-between;
+
 }
 .col-20{
     display: flex;
