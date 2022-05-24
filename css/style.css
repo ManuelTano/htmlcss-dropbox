@@ -154,7 +154,7 @@ h3 {
 }
 .col{
     flex-basis: 30%;
-    min-height: 800px;
+    min-height: 850px;
     border: 1px solid lightgray;
     margin-left: 25px;
 }
@@ -237,6 +237,7 @@ h2{
 ul {
     list-style-type: none;
     font-size: 14px;
+    margin-left: -40px;
 }
 
 li{
@@ -296,3 +297,31 @@ li{
 }
 
 /* SEZIONE BUSINESS */
+
+#business{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.top-row {
+    display: flex;
+}
+
+.bottom-row{
+    display: flex;
+}
+
+.column{
+    max-width: (100% / 3);
+    padding: 25px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h4 {
+    font-size: 25px;
+    
+}
