@@ -377,7 +377,6 @@ p {
 
 .col-client {
     width: calc(100% / 3);
-    background-color: red;
     height: 640px;
     width: 640px;
 }
@@ -388,14 +387,54 @@ p {
 .col-clients {
     height: 320px;
     width: 320px;
+    text-align: center;
+    line-height: 320px;
+    vertical-align: middle;
 }
 .grey {
     background-color: #F5F5F5;
 }
 
-.center {
-    text-align: center;
+.green {
+    background-color: #A2D39B;
 }
+
+.rossogranata{
+    background-color: #61082B;
+}
+
+.azzurro {
+    background-color: #0093CE;
+}
+
+.rossofuoco {
+    background-color: #FF1C1C;
+}
+
+.rosso {
+    background-color: #D5001F;
+}
+
+.celestino{
+    background-color: #B4D0E7;
+}
+
+.blu {
+    background-color: #0D2481;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.border {
+    border: 15px solid #D1E9CD;
+}
+
+.padding{
+    padding: 25px;
+}
+
 
 /* SEZIONE TRIAL */
 
