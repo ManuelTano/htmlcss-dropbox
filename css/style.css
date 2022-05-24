@@ -3,13 +3,11 @@
 * {
     font-family: 'Open Sans', sans-serif;
     color: black;
-}
-
-body {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 /* INTESTAZIONE */
 
@@ -94,9 +92,13 @@ h1{
 
 .col-box-70{
     width: 70%;
-    margin-top: 65px;
+    margin-top: 55px;
     position: relative;
 
+}
+
+#paragraph{
+   margin-bottom: 35px;
 }
 
 #prova {
@@ -139,6 +141,10 @@ h1{
     margin-top: 200px;
 }
 
+.scelta {
+    margin-top: 50px;
+}
+
 h3 {
     font-size: 40px;
     font-weight: 600;
@@ -151,22 +157,13 @@ h3 {
 .row-table{
     display: flex;
     margin-top: 50px;
+    justify-content: space-between;
 }
-.col{
+.col {
     flex-basis: 30%;
     min-height: 850px;
     border: 1px solid lightgray;
-    margin-left: 25px;
 }
-
-.title {
-    text-align: center;
-    font-size: 14px;
-    padding: 10px;
-    border-bottom: 1px solid lightgray;
-}
-
-
 
 strong {
     font-size: 25px;
@@ -178,9 +175,7 @@ strong {
     margin-right: 34px;
 }
 
-.description{
-    margin-top: 25px;
-}
+
 
 .prezzo, .mensile{
     margin-top: 15px;
@@ -223,6 +218,8 @@ strong {
 
 hr{
     margin-top: 35px;
+    margin-left: 0px;
+    margin-left: 0px;
     width: 20%;
     color: grey;
 }
@@ -237,7 +234,6 @@ h2{
 ul {
     list-style-type: none;
     font-size: 14px;
-    margin-left: -40px;
 }
 
 li{
@@ -248,14 +244,44 @@ li{
     color: #0061FF;
 }
 
-.row-100{
-    margin-top: 40px;
+.row-100 {
     border: 1px solid lightgray;
     width: 100%;
 }
 
+.flex{
+    display: flex;
+}
+
 .col-100 > * {
     margin-left: 25px;
+}
+
+.col-70{
+    width: 70%;
+    padding: 25px;
+    
+}
+
+.col-30{
+    width: 30%;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.title-border{
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-bottom: 0px;
+    margin-top: 35px;
 }
 
 /* SEZIONE IMMAGINE + TESTO */
@@ -285,6 +311,7 @@ li{
 
 #description {
     font-size: 30px;
+    margin-bottom: 35px;
 }
 
 #trovaunpartner{
@@ -315,6 +342,7 @@ li{
 .column{
     max-width: (100% / 3);
     padding: 25px;
+    margin-top: 35px;
 }
 
 img {
@@ -323,7 +351,12 @@ img {
 
 h4 {
     font-size: 25px;
+    font-weight: 600;
     
+}
+
+p {
+    margin-top: 35px;
 }
 
 .col-60{
@@ -337,19 +370,31 @@ h4 {
     margin-top: 150px;
 }
 
-.row-clients {
+.row-client {
     display: flex;
-}
-
-.col-clients{
-    width: (100% / 3);
-    height: 800px;
-    background-color: red;
     
 }
 
+.col-client {
+    width: calc(100% / 3);
+    background-color: red;
+    height: 640px;
+    width: 640px;
+}
+
+.row-clients{
+    display: flex;
+}
+.col-clients {
+    height: 320px;
+    width: 320px;
+}
 .grey {
-    background-color: grey;
+    background-color: #F5F5F5;
+}
+
+.center {
+    text-align: center;
 }
 
 /* SEZIONE TRIAL */
@@ -422,10 +467,12 @@ footer {
     padding-left: 0px;
 }
 
-.wd-5{
-    width: 5%;
+.wd-6{
+    width: 6%;
+    
 }
 
 #grey {
+    padding-top: 25px;
     color: grey;
 }
