@@ -345,6 +345,7 @@ h4 {
     width: (100% / 3);
     height: 800px;
     background-color: red;
+    
 }
 
 .grey {
@@ -419,4 +420,12 @@ footer {
 #white {
     color: white;
     padding-left: 0px;
+}
+
+.wd-5{
+    width: 5%;
+}
+
+#grey {
+    color: grey;
 }
