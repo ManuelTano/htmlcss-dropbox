@@ -15,13 +15,17 @@ body {
 
 header {
     z-index: 1;
+    background-color: white;
+    box-shadow: 0 1px 3px #dedede;
+
     position: fixed;
     left: 0;
     top: 0;
     right: 0;
-    background-color: white;
 
 }
+
+
 .row{
     display: flex;
     padding: 25px;
@@ -30,12 +34,16 @@ header {
 .column-left {
     width: 50%;
     display: flex;
+    align-items: center;
+
 }
 
 .column-right {
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+
 }
 
 a{
@@ -60,11 +68,13 @@ a{
     margin-top: 80px;
     width: 100%;
     background-color: #B4D0E7;
+    padding-bottom: 50px;
 }
 
 .big-container{
     margin: 0 auto;
     width: 1200px;
+
 }
 
 h1{
@@ -74,7 +84,6 @@ h1{
 }
 .riga {
     display: flex;
-    position: relative;
 }
 
 
@@ -85,6 +94,8 @@ h1{
 
 .col-box-70{
     width: 70%;
+    margin-top: 65px;
+    position: relative;
 
 }
 
@@ -101,10 +112,8 @@ h1{
 }
 
 #jumbo {
-    max-width: 70%;
-    height: auto;
+    max-width: 100%;
     position: absolute;
-    top: 70px;
 }
 
 .block{
@@ -121,8 +130,10 @@ h1{
 /* TABLE */
 
 .small-container {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
+    
+
 }
 .row-title {
     margin-top: 200px;
@@ -142,8 +153,10 @@ h3 {
     margin-top: 50px;
 }
 .col{
-    width: calc(100% / 3);
+    flex-basis: 30%;
+    min-height: 800px;
     border: 1px solid lightgray;
+    margin-left: 25px;
 }
 
 .title {
@@ -161,8 +174,8 @@ strong {
 }
 
 .info {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 35px;
+    margin-right: 34px;
 }
 
 .description{
@@ -180,7 +193,11 @@ strong {
 
 .mensile {
     font-size: 13px;
+}
+
+.mensile span{
     color: grey;
+
 }
 
 .utente, .archiviazione, .funzioni{
@@ -192,3 +209,90 @@ strong {
     text-align: center;
     margin-top: 50px;
 }
+
+.acquista {
+    margin-top: 35px;
+    font-size: 15px;
+}
+
+#acquista {
+    text-decoration: underline;
+    color: blue;
+    padding: 0;
+}
+
+hr{
+    margin-top: 35px;
+    width: 20%;
+    color: grey;
+}
+
+h2{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 35px;
+
+}
+
+ul {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+li{
+    margin-top: 20px;
+}
+
+.fa-check {
+    color: #0061FF;
+}
+
+.row-100{
+    margin-top: 40px;
+    border: 1px solid lightgray;
+    width: 100%;
+}
+
+.col-100 > * {
+    margin-left: 25px;
+}
+
+/* SEZIONE IMMAGINE + TESTO */
+
+#partner{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.row-image{
+    display: flex;
+}
+
+.col-image{
+    width: 60%;
+}
+
+.col-description {
+    width: 40%;
+    padding-left: 50px;
+}
+
+#partner-image {
+    max-width: 100%;
+}
+
+#description {
+    font-size: 30px;
+}
+
+#trovaunpartner{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.trovaunpartner{
+    margin-top: 40px;
+}
+
+/* SEZIONE BUSINESS */
