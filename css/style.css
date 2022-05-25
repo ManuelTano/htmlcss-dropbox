@@ -105,7 +105,7 @@ h1 {
     margin-bottom: 35px;
 }
 
-#prova {
+.prova {
     background-color: #0061FF;
     color: white;
     padding: 5px 15px 5px 15px;
@@ -217,12 +217,12 @@ strong {
     margin-top: 50px;
 }
 
-.acquista {
+.acquisto {
     margin-top: 35px;
     font-size: 15px;
 }
 
-#acquista {
+.acquista {
     text-decoration: underline;
     color: blue;
     padding: 0;
@@ -352,7 +352,7 @@ li {
 }
 
 .column {
-    max-width: (100% / 3);
+    width: (100% / 3);
     padding: 25px;
     margin-top: 35px;
 }
@@ -551,24 +551,39 @@ footer {
     flex-basis: 20%;
 }
 
-#white {
+.white {
     color: white;
     padding-left: 0px;
 }
 
 .wd-6 {
     width: 10%;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
-#grey {
+.grey {
     padding-top: 25px;
     color: grey;
 }
 
+.grigio {
+    color: grey;
+}
+
+.fa-earth-americas {
+    color: grey;
+} 
+
+.fa-sort-up {
+    color: grey;
+}
+
+
 /* EFFETTI IN HOVER */
 
 #inizia:hover,
-#prova:hover {
+.prova:hover {
     filter: brightness(1.2);
 }
 
@@ -580,6 +595,3 @@ footer {
     display: none;
 }
 
-.fa-angle-down:hover {
-    display: run-in;
-}
