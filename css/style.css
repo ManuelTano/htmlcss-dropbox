@@ -538,10 +538,6 @@ footer {
     padding-bottom: 100px;
 }
 
-.space {
-    justify-content: space-between;
-}
-
 .big {
     width: 100%;
 }
@@ -549,13 +545,9 @@ footer {
 .ultimate-row {
     display: flex;
     padding-top: 25px;
-    justify-content: space-between;
-
 }
 
 .col-20 {
-    display: flex;
-    justify-content: space-between;
     flex-basis: 20%;
 }
 
@@ -566,7 +558,6 @@ footer {
 
 .wd-6 {
     width: 10%;
-
 }
 
 #grey {
@@ -583,4 +574,12 @@ footer {
 
 .col-clients:hover {
     border: 10px solid #D1E9CD;
+}
+
+.accordion {
+    display: none;
+}
+
+.fa-angle-down:hover {
+    display: run-in;
 }
