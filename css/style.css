@@ -233,7 +233,7 @@ hr {
     margin-left: 0px;
     margin-left: 0px;
     width: 20%;
-    color: grey;
+    border: 1px solid lightgrey;
 }
 
 h2 {
@@ -499,6 +499,10 @@ p {
 
 /* SEZIONE FAQ */
 
+.faq-container {
+    margin-top: 35px;
+}
+
 #faq {
     max-width: 1000px;
     margin: 0 auto;
@@ -506,7 +510,26 @@ p {
     padding-bottom: 150px;
 }
 
+.faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid grey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 25px;
+}
 
+.border-top{
+    border-top: 1px solid grey;
+
+}
+
+h5{
+    font-size: 17px;
+    font-weight: 600;
+
+}
 
 /* FOOTER */
 
@@ -542,7 +565,7 @@ footer {
 }
 
 .wd-6 {
-    width: 6%;
+    width: 10%;
 
 }
 
