@@ -8,6 +8,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* INTESTAZIONE */
 
@@ -24,7 +27,7 @@ header {
 }
 
 
-.row{
+.row {
     display: flex;
     padding: 25px;
 }
@@ -44,12 +47,12 @@ header {
 
 }
 
-a{
+a {
     text-decoration: none;
     padding-left: 30px;
 }
 
-#inizia{
+#inizia {
     background-color: #0061FF;
     color: white;
     padding: 5px 10px 5px 10px;
@@ -69,36 +72,37 @@ a{
     padding-bottom: 50px;
 }
 
-.big-container{
+.big-container {
     margin: 0 auto;
     width: 1200px;
 
 }
 
-h1{
+h1 {
     font-size: 80px;
     margin: auto;
     padding-top: 80px;
 }
+
 .riga {
     display: flex;
 }
 
 
-.col-box-30{
+.col-box-30 {
     width: 30%;
     margin-top: 50px;
 }
 
-.col-box-70{
+.col-box-70 {
     width: 70%;
     margin-top: 55px;
     position: relative;
 
 }
 
-#paragraph{
-   margin-bottom: 35px;
+#paragraph {
+    margin-bottom: 35px;
 }
 
 #prova {
@@ -118,12 +122,12 @@ h1{
     position: absolute;
 }
 
-.block{
+.block {
     display: block;
     padding-top: 25px;
 }
 
-#freccia{
+#freccia {
     padding-top: 20px;
     font-size: 50px;
     padding-bottom: 25px;
@@ -134,11 +138,12 @@ h1{
 .small-container {
     max-width: 1000px;
     margin: 0 auto;
-    
+
 
 }
+
 .row-title {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .scelta {
@@ -154,15 +159,16 @@ h3 {
     margin-right: 40px;
 }
 
-.row-table{
+.row-table {
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
 }
+
 .col {
     flex-basis: 30%;
-    min-height: 850px;
     border: 1px solid lightgray;
+    padding-bottom: 50px;
 }
 
 strong {
@@ -172,12 +178,16 @@ strong {
 
 .info {
     margin-left: 35px;
-    margin-right: 34px;
+    margin-right: 35px;
+    text-indent: -7px;
 }
 
+.description {
+    margin-top: 25px;
+}
 
-
-.prezzo, .mensile{
+.prezzo,
+.mensile {
     margin-top: 15px;
 }
 
@@ -190,17 +200,19 @@ strong {
     font-size: 13px;
 }
 
-.mensile span{
+.mensile span {
     color: grey;
 
 }
 
-.utente, .archiviazione, .funzioni{
+.utente,
+.archiviazione,
+.funzioni {
     margin-top: 25px;
     font-size: 14px;
 }
 
-.button{
+.button {
     text-align: center;
     margin-top: 50px;
 }
@@ -216,7 +228,7 @@ strong {
     padding: 0;
 }
 
-hr{
+hr {
     margin-top: 35px;
     margin-left: 0px;
     margin-left: 0px;
@@ -224,7 +236,7 @@ hr{
     color: grey;
 }
 
-h2{
+h2 {
     font-size: 15px;
     font-weight: 600;
     margin-top: 35px;
@@ -236,7 +248,7 @@ ul {
     font-size: 14px;
 }
 
-li{
+li {
     margin-top: 20px;
 }
 
@@ -249,21 +261,21 @@ li{
     width: 100%;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.col-100 > * {
+.col-100>* {
     margin-left: 25px;
 }
 
-.col-70{
+.col-70 {
     width: 70%;
     padding: 25px;
-    
+
 }
 
-.col-30{
+.col-30 {
     width: 30%;
 
 }
@@ -275,7 +287,7 @@ li{
     border-bottom: 1px solid lightgrey;
 }
 
-.title-border{
+.title-border {
     text-align: center;
     font-size: 14px;
     padding: 10px;
@@ -286,17 +298,17 @@ li{
 
 /* SEZIONE IMMAGINE + TESTO */
 
-#partner{
+#partner {
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 150px;
 }
 
-.row-image{
+.row-image {
     display: flex;
 }
 
-.col-image{
+.col-image {
     width: 60%;
 }
 
@@ -314,18 +326,18 @@ li{
     margin-bottom: 35px;
 }
 
-#trovaunpartner{
+#trovaunpartner {
     border: 1px solid black;
     padding: 10px;
 }
 
-.trovaunpartner{
+.trovaunpartner {
     margin-top: 40px;
 }
 
 /* SEZIONE BUSINESS */
 
-#business{
+#business {
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 150px;
@@ -335,11 +347,11 @@ li{
     display: flex;
 }
 
-.bottom-row{
+.bottom-row {
     display: flex;
 }
 
-.column{
+.column {
     max-width: (100% / 3);
     padding: 25px;
     margin-top: 35px;
@@ -352,45 +364,55 @@ img {
 h4 {
     font-size: 25px;
     font-weight: 600;
-    
+
 }
 
 p {
     margin-top: 35px;
 }
 
-.col-60{
+.col-60 {
     width: 60%;
     margin-top: 150px;
 }
 
 /* SEZIONE CLIENTELA */
 
-#clienti{
+#clienti {
     margin-top: 150px;
 }
 
 .row-client {
     display: flex;
-    
+
 }
 
 .col-client {
-    width: calc(100% / 3);
-    height: 640px;
-    width: 640px;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.row-clients{
+.row-clients {
     display: flex;
 }
+
 .col-clients {
-    height: 320px;
-    width: 320px;
-    text-align: center;
-    line-height: 320px;
-    vertical-align: middle;
+    height: 50%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.col-client .col-clients img {
+    width: 50%;
+    filter: invert(1);
+}
+
 .grey {
     background-color: #F5F5F5;
 }
@@ -399,7 +421,7 @@ p {
     background-color: #A2D39B;
 }
 
-.rossogranata{
+.rossogranata {
     background-color: #61082B;
 }
 
@@ -415,7 +437,7 @@ p {
     background-color: #D5001F;
 }
 
-.celestino{
+.celestino {
     background-color: #B4D0E7;
 }
 
@@ -424,14 +446,14 @@ p {
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: #FFD830;
 }
 
 .border {
     border: 15px solid #D1E9CD;
 }
 
-.padding{
+.padding {
     padding: 25px;
 }
 
@@ -440,12 +462,12 @@ p {
 
 #trial {
     margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     background-color: #B4D0E7;
 }
 
-.trial-container{
+.trial-container {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -476,6 +498,10 @@ p {
     padding-bottom: 150px;
 }
 
+.space {
+    justify-content: space-between
+}
+
 
 
 /* FOOTER */
@@ -495,7 +521,8 @@ footer {
     justify-content: space-between;
 
 }
-.col-20{
+
+.col-20 {
     display: flex;
     justify-content: space-between;
     flex-basis: 20%;
@@ -506,12 +533,23 @@ footer {
     padding-left: 0px;
 }
 
-.wd-6{
+.wd-6 {
     width: 6%;
-    
+
 }
 
 #grey {
     padding-top: 25px;
     color: grey;
+}
+
+/* EFFETTI IN HOVER */
+
+#inizia:hover,
+#prova:hover {
+    filter: brightness(1.2);
+}
+
+.col-clients:hover {
+    border: 10px solid #D1E9CD;
 }
