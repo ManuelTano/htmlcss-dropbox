@@ -415,6 +415,7 @@ p {
 
 .grey {
     background-color: #F5F5F5;
+
 }
 
 .green {
@@ -454,8 +455,15 @@ p {
 }
 
 .padding {
-    padding: 25px;
+    padding: 50px;
 }
+
+#designit{
+    width: 50%;
+    border-bottom: 1px solid lightgrey;
+}
+
+
 
 
 /* SEZIONE TRIAL */
@@ -494,12 +502,8 @@ p {
 #faq {
     max-width: 1000px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 150px;
-}
-
-.space {
-    justify-content: space-between
 }
 
 
@@ -509,6 +513,10 @@ p {
 footer {
     background-color: black;
     padding-bottom: 100px;
+}
+
+.space {
+    justify-content: space-between;
 }
 
 .big {
